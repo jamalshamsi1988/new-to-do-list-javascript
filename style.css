@@ -7,7 +7,7 @@
 body{
     background-image: linear-gradient(120deg,#ffdd00 0%, #fbb034 100%);
     color: white;
-    font-family: "Poppins",sans-serif;
+    font-family: "Poppins" , sans-serif;
     min-height: 100vh;
 }
 
@@ -16,13 +16,13 @@ header{
     text-shadow: 3px 1px 2px rgb(93,122,93);
 }
 
-header, form{
+header,form{
     min-height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
+
 form input, form button{
     padding: 0.5rem;
     font-size: 2rem;
@@ -31,17 +31,19 @@ form input, form button{
 }
 
 form input{
-    border-top-left-radius: 10px ;
+    border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
+
 form button{
-    border-top-right-radius: 10px ;
-    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px; 
     color: #c4447a;
     background: #f7fffe;
     cursor: pointer;
     transition: all 0.3s ease;
 }
+
 form button:hover{
     background: #c4447a;
     color: white;
@@ -52,11 +54,13 @@ form button:hover{
     justify-content: center;
     align-items: center;
 }
+
 .todo-list{
     min-width: 30%;
     list-style: none;
     border-radius: 10px;
 }
+
 .todo{
     margin: 0.5rem;
     background: white;
@@ -67,13 +71,16 @@ form button:hover{
     align-items: center;
     transition: all 1s ease;
 }
+
 .filter-todo{
     padding: 1rem;
 }
+
 .todo li{
     flex: 1;
 }
-.trash-btn, .completed-btn{
+
+.trash-btn,.completed-btn{
     background: #f83a3a;
     color: white;
     border: none;
@@ -81,38 +88,42 @@ form button:hover{
     cursor: pointer;
     font-size: 1rem;
 }
+
 .completed-btn{
     background: rgb(11,212,162);
-
 }
+
 .todo-item{
     padding: 0rem 0.5rem;
 }
-.fa-trash, .fa.check{
+
+.fa-trash,.fa-check{
     pointer-events: none;
 }
+
 .completed{
     text-decoration: line-through;
     opacity: 0.5;
 }
-select{
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -ms-appearance: none;
-    appearance: none;
-    outline: 0;
-    box-shadow: none;
-    border: 0 !important;
-    background-image: none;
-    border-radius: 10px;
-    color: #c4447a;
-    font-family: "Poppins", sans-serif;
-    cursor: pointer;
-    width: 12rem;
+
+select{  
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background-image: none;
+  border-radius: 10px;
+  color: #c4447a;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  width: 12rem;
 }
 
 .select{
-    margin: 1rem ;
+    margin: 1rem;
     position: relative;
     overflow: hidden;
 }
@@ -124,5 +135,5 @@ select{
     padding: 1rem;
     background: #c4447a;
     cursor: pointer;
-    pointer-events: none
+    pointer-events: none;
 }
